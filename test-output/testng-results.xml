@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite B" duration-ms="5" started-at="2015-06-26T18:40:32Z" finished-at="2015-06-26T18:40:32Z">
+    <groups>
+    </groups>
+    <test name="Suite B 1 " duration-ms="5" started-at="2015-06-26T18:40:32Z" finished-at="2015-06-26T18:40:32Z">
+      <class name="SuiteB.SuiteB1">
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:SuiteB.SuiteB1@207f5580]" name="TestCase1" duration-ms="1" started-at="2015-06-26T11:40:32Z" finished-at="2015-06-26T11:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:SuiteB.SuiteB1@207f5580]" name="TestCase2" duration-ms="1" started-at="2015-06-26T11:40:32Z" depends-on-methods="SuiteB.SuiteB1.TestCase1" finished-at="2015-06-26T11:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+      </class> <!-- SuiteB.SuiteB1 -->
+    </test> <!-- Suite B 1  -->
+  </suite> <!-- Suite B -->
+  <suite name="WebAutoForce" duration-ms="0" started-at="2015-06-26T18:40:32Z" finished-at="2015-06-26T18:40:32Z">
+    <groups>
+    </groups>
+  </suite> <!-- WebAutoForce -->
+  <suite name="SuiteA" duration-ms="56" started-at="2015-06-26T18:40:32Z" finished-at="2015-06-26T18:40:32Z">
+    <groups>
+    </groups>
+    <test name="Suite A 1" duration-ms="40" started-at="2015-06-26T18:40:32Z" finished-at="2015-06-26T18:40:32Z">
+      <class name="SuiteA.SuiteA1">
+        <test-method status="PASS" signature="TestInitialSetup(java.lang.String, java.lang.String)[pri:0, instance:SuiteA.SuiteA1@7f712b3a]" name="TestInitialSetup" duration-ms="8" started-at="2015-06-26T11:40:32Z" finished-at="2015-06-26T11:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInitialSetup -->
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:SuiteA.SuiteA1@7f712b3a]" name="TestCase1" duration-ms="3" started-at="2015-06-26T11:40:32Z" finished-at="2015-06-26T11:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:SuiteA.SuiteA1@7f712b3a]" name="TestCase2" duration-ms="0" started-at="2015-06-26T11:40:32Z" depends-on-methods="SuiteA.SuiteA1.TestCase1" finished-at="2015-06-26T11:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+      </class> <!-- SuiteA.SuiteA1 -->
+    </test> <!-- Suite A 1 -->
+    <test name="Suite A 2" duration-ms="6" started-at="2015-06-26T18:40:32Z" finished-at="2015-06-26T18:40:32Z">
+      <class name="SuiteA.SuiteA2">
+        <test-method status="PASS" signature="TestCaseA11()[pri:0, instance:SuiteA.SuiteA2@73da669c]" name="TestCaseA11" duration-ms="1" started-at="2015-06-26T11:40:32Z" finished-at="2015-06-26T11:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseA11 -->
+        <test-method status="PASS" signature="TestCaseA22()[pri:0, instance:SuiteA.SuiteA2@73da669c]" name="TestCaseA22" duration-ms="1" started-at="2015-06-26T11:40:32Z" depends-on-methods="SuiteA.SuiteA2.TestCaseA11" finished-at="2015-06-26T11:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseA22 -->
+      </class> <!-- SuiteA.SuiteA2 -->
+    </test> <!-- Suite A 2 -->
+  </suite> <!-- SuiteA -->
+</testng-results>
